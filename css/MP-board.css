@@ -328,7 +328,7 @@ body
 {
    display: block;
    background-color: #005480;
-   font-family: Arial;
+   font-family: Gotu;
    font-weight: normal;
    text-align: center;
    width: 100%;
@@ -338,7 +338,7 @@ body
 {
    display: inline-block;
    background-color: #005480;
-   height: 66px;
+   height: 72px;
 }
 #wb_ResponsiveMenu1 ul
 {
@@ -370,7 +370,7 @@ body
 {
    background-color: #005480;
    color: #FFFFFF;
-   font-family: Arial;
+   font-family: Gotu;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -380,7 +380,7 @@ body
 }
 #wb_ResponsiveMenu1 > ul > li > a 
 {
-   height: 39px;
+   height: 45px;
 }
 .ResponsiveMenu1 a 
 {
@@ -395,7 +395,7 @@ body
 {
    display: none;
    position: absolute;
-   top: 66px;
+   top: 72px;
 }
 #wb_ResponsiveMenu1 ul li:hover > ul
 {
@@ -405,7 +405,7 @@ body
 {
    float: none;
    position: relative;
-   width: 305px;
+   width: 317px;
 }
 #wb_ResponsiveMenu1 ul ul li a
 {
@@ -433,9 +433,9 @@ body
 }
 #wb_ResponsiveMenu1 ul ul ul li 
 {
-   left: 305px;
+   left: 317px;
    position: relative;
-   top: -66px;
+   top: -72px;
 }
 #wb_ResponsiveMenu1 .arrow-down 
 {
@@ -528,8 +528,8 @@ body
 }
 #ResponsiveMenu1-title
 {
-   height: 66px !important;
-   line-height: 66px !important;
+   height: 72px !important;
+   line-height: 72px !important;
    text-align: center;
 }
 #wb_ResponsiveMenu1 ul li 
@@ -595,7 +595,7 @@ body
    display: block;
    position: absolute;
    left: 30px;
-   top: 21px;
+   top: 24px;
 }
 #ResponsiveMenu1-icon span 
 {
@@ -919,7 +919,7 @@ body
 #wb_Text1
 {
    color: #FFFFFF;
-   font-family: "Nirmala UI";
+   font-family: Arya;
    font-weight: 400;
    font-size: 13px;
    line-height: 16px;
@@ -2152,7 +2152,7 @@ body
    clear: both;
    position: relative;
    table-layout: fixed;
-   display: table;
+   display: none;
    text-align: center;
    width: 100%;
    background-color: #FFC0A0;
@@ -4460,6 +4460,145 @@ body
    box-sizing: border-box;
    width: 100%;
 }
+#wb_Heading7
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   border-radius: 0px;
+   box-sizing: border-box;
+   vertical-align: top;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+#Heading7
+{
+   color: #000000;
+   font-family: "Yatra One";
+   font-weight: bold;
+   font-style: normal;
+   font-size: 24px;
+   margin: 0;
+   text-align: center;
+}
+#wb_Icon12
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+   transition: all 5ms linear;
+}
+#wb_Icon12:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+}
+#Icon12
+{
+   height: 24px;
+   width: 29px;
+}
+#Icon12 i
+{
+   color: #0963AD;
+   display: inline-block;
+   font-size: 24px;
+   line-height: 24px;
+   vertical-align: middle;
+   width: 23px;
+   transition: all 5ms linear;
+}
+#wb_Icon12:hover #Icon12 i
+{
+   color: #337AB7;
+}
+#wb_Icon16
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+   transition: all 5ms linear;
+}
+#wb_Icon16:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+}
+#Icon16
+{
+   height: 24px;
+   width: 29px;
+}
+#Icon16 i
+{
+   color: #0963AD;
+   display: inline-block;
+   font-size: 24px;
+   line-height: 24px;
+   vertical-align: middle;
+   width: 23px;
+   transition: all 5ms linear;
+}
+#wb_Icon16:hover #Icon16 i
+{
+   color: #337AB7;
+}
+#wb_Icon20
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+   border-radius: 0px;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+   transition: all 5ms linear;
+}
+#wb_Icon20:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid transparent;
+}
+#Icon20
+{
+   height: 24px;
+   width: 29px;
+}
+#Icon20 i
+{
+   color: #0963AD;
+   display: inline-block;
+   font-size: 24px;
+   line-height: 24px;
+   vertical-align: middle;
+   width: 23px;
+   transition: all 5ms linear;
+}
+#wb_Icon20:hover #Icon20 i
+{
+   color: #337AB7;
+}
 #wb_LayoutGrid52
 {
    clear: both;
@@ -5372,123 +5511,30 @@ body
 {
    outline: 0;
 }
-.search-item, .search-text
+.search-autocomplete
 {
+   position: absolute;
+   background: #FFFFFF;
+   border: 1px solid #CCCCCC;
    color: #000000;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
-   padding: 4px 4px 4px 4px;
-}
-.search-text
-{
-   margin: 0 0 4px 0;
-}
-.search-title, .search-title:active, .search-title:hover, .search-title:visited
-{
-   color: #1A0DAB;
-}
-.search-url, .search-url:active, .search-url:hover, .search-url:visited
-{
-   color: #006621;
-   text-decoration: none;
-}
-.search-highlight
-{
-   font-weight: bold;
-   font-style: normal;
-}
-.clickable
-{
-   cursor: pointer;
-}
-#search-pagination
-{
-   display: inline-block;
-   list-style: none;
+   list-style-type: none;
+   z-index: 999;
    padding: 0;
-   border-radius: 4px;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 0;
-   margin: 8px 0 0 4px;
+   width: 766px;
+   margin: 0;
 }
-#search-pagination > li
+.search-autocomplete li
 {
-   display: inline;
-   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
 }
-#search-pagination > li > a, #search-pagination > li > span
+.search-autocomplete li.selected
 {
-   position: relative;
-   float: left;
-   padding: 4px 10px 4px 10px;
-   text-decoration: none;
-   background-image: none;
-   border: 1px #DDDDDD solid;
-   color: #000000;
-   margin-left: -1px;
-}
-#search-pagination > li:first-child > a, #search-pagination > li:first-child > span
-{
-   margin-left: 0;
-   border-bottom-left-radius: 4px;
-   border-top-left-radius: 4px;
-}
-#search-pagination > li:last-child > a, #search-pagination > li:last-child > span
-{
-   border-bottom-right-radius: 4px;
-   border-top-right-radius: 4px;
-}
-#search-pagination > li > a:hover, #search-pagination > li > span:hover, #search-pagination > li > a:focus, #search-pagination > li > span:focus 
-{
-   background-color: #CCCCCC;
-   color: #23527C;
-}
-#search-pagination > .active > a, #search-pagination > .active > span, #search-pagination > .active > a:hover, #search-pagination > .active > span:hover, #search-pagination > .active > a:focus, #search-pagination > .active > span:focus
-{
-   z-index: 2;
-   background-color:#000000;
-   border-color:#000000;
+   background: #CCCCCC;
    color: #FFFFFF;
-   cursor: default;
-}
-#search-pagination > .disabled > span, #search-pagination > .disabled > span:hover, #search-pagination1 > .disabled > span:focus, #search-pagination > .disabled > a, #search-pagination > .disabled > a:hover, #search-pagination > .disabled > a:focus 
-{
-   background-color: #FFFFFF;
-   color: #777777;
-   cursor: not-allowed;
-}
-.ui-dialog
-{
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-}
-.ui-dialog .ui-dialog-title
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
-   font-style: normal;
-   color: transparent;
-}
-.ui-dialog .ui-dialog-titlebar
-{
-   padding: 4px 4px 4px 4px;
-}
-.ui-dialog .ui-dialog-content
-{
-   padding: 6px 2px 2px 2px;
-}
-.ui-dialog .ui-dialog-titlebar-close
-{
-   right: 10px;
-}
-.ui-dialog .ui-dialog-buttonpane button
-{
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
 }
 #Button11
 {
@@ -5532,7 +5578,7 @@ body
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   padding: 25px 0 50px 0;
+   padding: 25px 0 15px 0;
    margin-right: auto;
    margin-left: auto;
    max-width: 1024px;
@@ -5726,21 +5772,21 @@ body
 }
 #ListView2 > .ui-li-has-icon > .ui-btn, #ListView2 > .ui-li-static.ui-li-has-icon
 {
-   min-height: 47px;
-   padding-left: 84px;
+   min-height: 45px;
+   padding-left: 65px;
 }
 #ListView2 > .ui-li-divider.ui-li-has-icon
 {
-   min-height: 47px;
-   padding-left: 84px;
+   min-height: 45px;
+   padding-left: 65px;
 }
 #ListView2 > .ui-li-has-icon.ui-last-child > .ui-btn, #ListView2 > .ui-li-static.ui-li-has-icon.ui-last-child
 {
-   min-height: 47px;
+   min-height: 45px;
 }
 #ListView2 > .ui-li-divider.ui-li-has-icon.ui-last-child
 {
-   min-height: 47px;
+   min-height: 45px;
 }
 #ListView2 > .ui-li-static.ui-last-child, #ListView2 > .ui-li-divider.ui-last-child, #ListView2 > li.ui-last-child > a.ui-btn 
 {
@@ -5753,8 +5799,8 @@ body
    left: 10px;
    top: 6px;
    margin-bottom: 0;
-   max-width: 64px;
-   max-height: 47px;
+   max-width: 45px;
+   max-height: 45px;
 }
 #ListView2 p 
 {
@@ -5804,7 +5850,7 @@ body
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
-   padding: 5px 0 5px 0;
+   padding: 7px 0 7px 0;
    margin-right: auto;
    margin-left: auto;
 }
@@ -5897,7 +5943,7 @@ body
    font-family: Arial;
    font-weight: 400;
    font-size: 17px;
-   line-height: 20px;
+   line-height: 19px;
 }
 #wb_Text2 p, #wb_Text2 ul
 {
@@ -5926,7 +5972,7 @@ body
 {
    cursor: pointer;
    margin: .5em 0;
-   padding: 6px 18px 6px 10px;
+   padding: 6px 18px 2px 10px;
    display: block;
    overflow: hidden;
    position: relative;
@@ -6011,7 +6057,7 @@ body
    border-color: #FFFFFF;
    background-color: #193441;
    background-image: none;
-   padding: 6px 18px 6px 10px;
+   padding: 6px 18px 2px 10px;
 }
 #ListView1 > li.ui-first-child, #ListView1 > li.ui-first-child > a.ui-btn 
 {
@@ -6172,143 +6218,4 @@ body
    margin: 0;
    box-sizing: border-box;
    width: 100%;
-}
-#wb_Heading7
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   border-radius: 0px;
-   box-sizing: border-box;
-   vertical-align: top;
-   margin: 0;
-   padding: 0;
-   text-align: center;
-}
-#Heading7
-{
-   color: #000000;
-   font-family: "Yatra One";
-   font-weight: bold;
-   font-style: normal;
-   font-size: 24px;
-   margin: 0;
-   text-align: center;
-}
-#wb_Icon12
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-   transition: all 5ms linear;
-}
-#wb_Icon12:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-}
-#Icon12
-{
-   height: 24px;
-   width: 29px;
-}
-#Icon12 i
-{
-   color: #0963AD;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-   width: 23px;
-   transition: all 5ms linear;
-}
-#wb_Icon12:hover #Icon12 i
-{
-   color: #337AB7;
-}
-#wb_Icon16
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-   transition: all 5ms linear;
-}
-#wb_Icon16:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-}
-#Icon16
-{
-   height: 24px;
-   width: 29px;
-}
-#Icon16 i
-{
-   color: #0963AD;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-   width: 23px;
-   transition: all 5ms linear;
-}
-#wb_Icon16:hover #Icon16 i
-{
-   color: #337AB7;
-}
-#wb_Icon20
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-   border-radius: 0px;
-   text-align: center;
-   margin: 0;
-   padding: 0;
-   vertical-align: top;
-   display:inline-block;
-   position:relative;
-   transition: all 5ms linear;
-}
-#wb_Icon20:hover
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid transparent;
-}
-#Icon20
-{
-   height: 24px;
-   width: 29px;
-}
-#Icon20 i
-{
-   color: #0963AD;
-   display: inline-block;
-   font-size: 24px;
-   line-height: 24px;
-   vertical-align: middle;
-   width: 23px;
-   transition: all 5ms linear;
-}
-#wb_Icon20:hover #Icon20 i
-{
-   color: #337AB7;
 }
