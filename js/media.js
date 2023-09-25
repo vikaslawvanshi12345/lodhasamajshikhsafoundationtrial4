@@ -5,13 +5,11 @@ function onYouTubeIframeAPIReady() {
       }
    });
 }
-var features = '';
+var features = 'toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes,status=no,left=,top=,width=,height=';
 function searchPage(features)
 {
-   $('#SiteSearch2-dialog').dialog('open');
-   $('#SiteSearch2-dialog').empty();
-   searchResults('SiteSearch2', 'SiteSearch2-dialog', 250, 5, false, true, false, false, '_parent', 'No results', ' result(s) found for search term: ', 'seconds');
-   $('#SiteSearch2-dialog').dialog('option', 'position', 'center');
+   var element = document.getElementById('SiteSearch2');
+   window.open('sitesearch2-results.html?q='+encodeURIComponent(element.value), '', features);
    return false;
 }
 $(document).ready(function()
@@ -26,26 +24,7 @@ $(document).ready(function()
       $('html, body').stop().animate({ scrollTop: $('#wb_Bookmark1').offset().top }, 600, 'linear');
    });
    searchParseURL('SiteSearch2');
-   $("#SiteSearch2-dialog").dialog(
-   {
-      modal: true,
-      width: 400,
-      height: 300,
-      position: { my: 'center', at: 'center', of: window },
-      resizable: true,
-      draggable: false,
-      closeOnEscape: true,
-      show: false,
-      hide: false,
-      autoOpen: false,
-      buttons: 
-      {
-         Close: function() 
-         {
-            $(this).dialog('close');
-         }
-      }
-   });
+   searchAutoComplete('SiteSearch2', 0, '_parent');
    $("a[href*='#LayoutGrid14']").click(function(event)
    {
       event.preventDefault();

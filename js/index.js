@@ -24,10 +24,6 @@ $(document).ready(function()
    $("a[rel^='SlideShow1']").fancybox({});
    $("a[data-rel='SlideShow17']").attr('rel', 'SlideShow17');
    $("a[rel^='SlideShow17']").fancybox({});
-   $("a[data-rel='SlideShow16']").attr('rel', 'SlideShow16');
-   $("a[rel^='SlideShow16']").fancybox({});
-   $("a[data-rel='SlideShow15']").attr('rel', 'SlideShow15');
-   $("a[rel^='SlideShow15']").fancybox({});
    $("a[data-rel='SlideShow14']").attr('rel', 'SlideShow14');
    $("a[rel^='SlideShow14']").fancybox({});
    $("a[data-rel='SlideShow13']").attr('rel', 'SlideShow13');
@@ -46,10 +42,12 @@ $(document).ready(function()
    $("a[rel^='SlideShow7']").fancybox({});
    $("a[data-rel='SlideShow6']").attr('rel', 'SlideShow6');
    $("a[rel^='SlideShow6']").fancybox({});
+   $("a[data-rel='SlideShow3']").attr('rel', 'SlideShow3');
+   $("a[rel^='SlideShow3']").fancybox({});
+   $("a[data-rel='SlideShow4']").attr('rel', 'SlideShow4');
+   $("a[rel^='SlideShow4']").fancybox({});
    $("a[data-rel='SlideShow5']").attr('rel', 'SlideShow5');
    $("a[rel^='SlideShow5']").fancybox({});
-   $("a[data-rel='SlideShow2']").attr('rel', 'SlideShow2');
-   $("a[rel^='SlideShow2']").fancybox({});
    searchParseURL('SiteSearch2');
    searchAutoComplete('SiteSearch2', 0, '_parent');
    $("a[href*='#LayoutGrid56']").click(function(event)
